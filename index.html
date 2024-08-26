@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfil-Hakimalbnna</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="./Style1.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#" class="logo"><span>HA</span>Web</a>
+            <ul class="links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Portfil</a></li>
+                <li><a href="#">Project's</a></li>
+                <li><a href="#">contant</a></li>
+            </ul>
+            <div class="social-links">
+                <a href="https://web.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Ahmed-Ragab-Mahmoud" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <i id="btnmenu" class="fa-solid fa-bars"></i>
+        </nav>
+    </header>
+
+    <div class="hero-sec">
+        <div class="contanier">
+            <div class="dev-text">
+                <h1>Hakim Albnna</h1>
+                <span>Web Designer</span>
+                <p>
+                    ipsum dolor sit amet consectetur adipisicing elit. Est, voluptas consectetur possimus exercitationem modi quia quod eveniet laborum explicabo quasi!
+                </p>
+                <a href="img2.jpg.jpg" class="btn">My Works</a>
+            </div>
+
+            <div class="div-img">
+                <img src="./ei_1705187275238-removebg-preview (1) - Copy.png" alt="" width="250">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        let btnmenu = document.getElementById("btnmenu");
+        let NavLinks = document.querySelector(".links");
+
+        btnmenu.onclick = function() {
+            btnmenu.classList.toggle("fa-times")
+            NavLinks.classList.toggle("active")
+        }
+    </script>
+
+</body>
+
+</html>
